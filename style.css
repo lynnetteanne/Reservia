@@ -27,9 +27,20 @@ nav li a{
 
 }
 
-/*filters {
+h2 {
+  padding: 20px 0 0 0;
+}
 
-}*/
+#downtown {
+  padding: -30px 0 0 0;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#submit {
+  background-color: rgb(55, 116, 248);
+  border-radius: 4px;
+
+}
 
 p a {
   display: inline-block;
@@ -54,19 +65,4 @@ filter li a {
   display: inline-block;
 }
 
-h2 {
-  padding: 20px 0 0 0;
-}
 
-#downtown {
-  padding: -30px 0 0 0;
-  font-family:'Courier New', Courier, monospace;
-}
-
-
-
-#submit {
-  background-color: rgb(55, 116, 248);
-  border-radius: 4px;
-
-}
