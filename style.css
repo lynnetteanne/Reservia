@@ -1,3 +1,6 @@
+*, body{
+  font-family: 'Raleway', sans-serif;
+}
 #logo{
   display: inline-block;
   width: 100px;
@@ -6,7 +9,7 @@ nav {
   /*display: inline-block;*/
   float: right;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  
 }
 
 nav li {
@@ -18,7 +21,6 @@ nav li {
 nav li a{
   text-decoration: none;
   color: black;
-  font-family: 'Raleway', sans-serif;
   padding-top: 15px;
 }
 
@@ -30,19 +32,18 @@ nav li a{
 
 h2 {
   padding: 20px 0 0 0;
-  font-family: 'Raleway', sans-serif;
 }
 
 #downtown {
   padding: -30px 0 0 0;
-  font-family: 'Raleway', sans-serif;
 }
 
 #mylocation {
-  background-color: #F2F2;
+  background-color: #F2F2F2;
   border-radius: 10px 0px 0px 10px;
   float:inline-start;
-  padding: 10px;
+  padding: 11px;
+  border-style: none;
 }
 
 #location {
@@ -52,9 +53,11 @@ h2 {
 #submit {
   background-color: #0065FC;
   border-radius: 0px 10px 10px 0px;
-  padding: 10px;
+  padding: 11px;
   display:inline-block;
   color: white;
+  margin-left: -4px;
+  border-style: none;
 
 }
 
@@ -64,7 +67,14 @@ filter a {
   color: black;
   padding: 10px;
   margin-top: 30px;
-  font-family: 'Raleway', sans-serif;
+}
+
+filter i{
+  color: #0065FC;
+  background-color: #DEEBFF;
+  padding: 7px;
+  margin-left: -10px;
+  border-radius: 15px;
 }
 
 ul {
@@ -87,9 +97,8 @@ filter li a {
 }
 
 section {
-  background-color: #F2F2;
+  background-color: #F2F2F2;
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
   margin-right: 50%;
   margin-top: 15px;
 }
