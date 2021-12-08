@@ -22,10 +22,7 @@ nav li {
 nav li a{
   text-decoration: none;
   color: black;
-<<<<<<< HEAD
   font-family: 'Raleway', sans-serif;
-=======
->>>>>>> 3253d40c75a6e1842383ba879c11f8937d3dadc0
   padding-top: 15px;
 }
 
@@ -47,15 +44,11 @@ h2 {
 
 #downtown {
   padding: -30px 0 0 0;
-<<<<<<< HEAD
   font-family: 'Raleway', sans-serif;
-=======
->>>>>>> 3253d40c75a6e1842383ba879c11f8937d3dadc0
 }
 
 #mylocation {
   background-color: #F2F2F2;
-<<<<<<< HEAD
   border-width: 1px;
   border-radius: 10px 0px 0px 10px;
   float:inline-start;
@@ -63,12 +56,6 @@ h2 {
   margin-right: -10px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-=======
-  border-radius: 10px 0px 0px 10px;
-  float:inline-start;
-  padding: 11px;
-  border-style: none;
->>>>>>> 3253d40c75a6e1842383ba879c11f8937d3dadc0
 }
 
 #location {
@@ -80,15 +67,11 @@ h2 {
 
 #submit {
   background-color: #0065FC;
-<<<<<<< HEAD
   border-width: 1px;;
-=======
->>>>>>> 3253d40c75a6e1842383ba879c11f8937d3dadc0
   border-radius: 0px 10px 10px 0px;
   padding: 11px;
   display:inline-block;
   color: white;
-<<<<<<< HEAD
   margin-left: -10px;
   font-family: 'Raleway', sans-serif;
 }
@@ -99,10 +82,6 @@ h2 {
   flex-basis: 1;
   margin-top: 15px;
 }
-=======
-  margin-left: -4px;
-  border-style: none;
->>>>>>> 3253d40c75a6e1842383ba879c11f8937d3dadc0
 
 .title {
   font-family: 'Raleway', sans-serif;
