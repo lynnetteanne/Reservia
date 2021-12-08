@@ -12,19 +12,26 @@ nav li {
   display: inline-block;
   text-decoration: none;
   margin:0 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
 nav li a{
   text-decoration: none;
   color: black;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Raleway', sans-serif;
   padding-top: 15px;
 }
 
 
 .active {
-  border-top: 2px solid blue;
+  border-top: 2px solid #0065FC;
 
+}
+
+div2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 h2 {
@@ -33,30 +40,58 @@ h2 {
 
 #downtown {
   padding: -30px 0 0 0;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Raleway', sans-serif;
 }
 
 #mylocation {
-  background-color: grey;
+  background-color: #F2F2F2;
+  border-width: 1px;
   border-radius: 10px 0px 0px 10px;
   float:inline-start;
   padding: 10px;
+  margin-right: -10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 #location {
   padding: 10px;
+  margin: 0px, -10px;
+  border-width: 1px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #submit {
-  background-color: rgb(55, 116, 248);
+  background-color: #0065FC;
+  border-width: 1px;;
   border-radius: 0px 10px 10px 0px;
   padding: 10px;
   display:inline-block;
   color: white;
-
+  margin-left: -10px;
+  font-family: 'Raleway', sans-serif;
 }
 
-filter a {
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 1;
+  margin-top: 15px;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.item {
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid black;
+  padding: 10px 10px 10px 30px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+/*filter a {
   display: inline;
   text-decoration: none;
   color: black;
@@ -65,12 +100,12 @@ filter a {
 }
 
 ul {
-  display: inline;
+  /*display: inline;
   margin-top: 30px;
   margin-left: -45px;
 }
 filter li {
-  display: inline;
+  /*display: inline;
   padding: 10px 10px 10px 30px;
   border: 2px solid black;
   border-radius: 30px;
@@ -82,7 +117,7 @@ filter li a {
   text-decoration: none;
   display: inline-block;
 }
-
+*/
 section {
   background-color: rgb(207, 205, 205);
   display: inline-block;
